@@ -1,11 +1,24 @@
-# Red Team – Día 1: Fuerza Bruta con Hydra
+# 🔓 Ataque FTP con Hydra – Red Team Pentesting
 
-## Objetivo
-Automatizar ataque de fuerza bruta con Hydra usando diccionarios sobre un servicio FTP público.
+Este proyecto es parte de mi portafolio de ciberseguridad ofensiva (Red Team). Aquí se realiza un ataque de fuerza bruta controlado contra un servidor FTP de pruebas usando **Hydra**, una herramienta reconocida para pruebas de penetración.
 
-## Herramienta usada
-- THC-Hydra v9.1
+---
 
-## Comando ejecutado
-```bash
-hydra -L usuarios.txt -P passwords.txt ftp://test.rebex.net
+## 🛠️ Herramientas utilizadas
+
+- Kali Linux (contenedor)
+- VS Code con Dev Container
+- [Hydra](https://github.com/vanhauser-thc/thc-hydra)
+- Git + GitHub
+- Wordlists personalizadas (usuarios.txt y passwords.txt)
+
+---
+
+## 🎯 Objetivo
+
+Automatizar un ataque de fuerza bruta en el servicio FTP del servidor público de pruebas `ftp://test.rebex.net`, con fines educativos y de portafolio.
+
+---
+
+## 🔍 Estructura del proyecto
+
