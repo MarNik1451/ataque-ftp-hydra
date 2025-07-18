@@ -1,0 +1,17 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-07-18 21:44 UTC
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.099s latency).
+Not shown: 65531 filtered ports
+PORT      STATE SERVICE    VERSION
+22/tcp    open  ssh        OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.13 (Ubuntu Linux; protocol 2.0)
+|_banner: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13
+80/tcp    open  http       Apache httpd 2.4.7 ((Ubuntu))
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+9929/tcp  open  nping-echo Nping echo
+| banner: \x01\x01\x00\x18\xCB$\xAC\xD1hz\xC1b\x00\x00\x00\x00G\xA8\xDF\x
+|_DA\x92V\xF02\xE23\xCB\xE2\x98$\xF3\xAAz\xE4z\xCE\xD7\xCEM\xF2\x9B\xB...
+31337/tcp open  tcpwrapped
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 333.25 seconds
